@@ -1,0 +1,28 @@
+{
+    "jsc": {
+        "parser": {
+            "syntax": "ecmascript",
+            "jsx": true,
+            "numericSeparator": false,
+            "classPrivateProperty": false,
+            "privateMethod": false,
+            "classProperty": false,
+            "functionBind": false,
+            "optionalChaining": true,
+            "dynamicImport": true,
+            "nullishCoalescing": true,
+            "decorators": true,
+            "decoratorsBeforeExport": true,
+            "exportDefaultFrom": true,
+            "exportNamespaceFrom": true
+        },
+        "target": "es2022",
+        "transform": {
+            "legacyDecorator": true,
+            "decoratorMetadata": true,
+            "react": {
+                "runtime": "automatic"
+            }
+        }
+    }
+}
